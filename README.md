@@ -1,5 +1,6 @@
 # capstone_cyclist
 Case of Study -  How does a bike-share navigate speedy success?
+[Medium](https://medium.com/@camilapattaro/case-study-how-does-a-bike-share-navigate-speedy-success-561fe81e042a)
 
 # Introduction
 Welcome to my Cyclistic bike-share analysis case study, which serves as the capstone project for the Google Data Analytics Professional Certificate. In this project, I am collaborating with a key team members on behalf of the fictional company, Cyclistic. To address the business questions posed, I will be applying the data analysis process as outlined in the course, following these steps: Ask, Prepare, Process, Analyze, Share, and Act.
@@ -66,3 +67,26 @@ Subsequently, I created a column named “day_of_week” to facilitate the visua
 Lastly, I checked for duplicates, filtered and sorted all the columns to identify any relevant blank spaces and inconsistencies in formatting. I noticed that there were many blank cells in the columns related to the start and end stations of the trips. However, I chose not to exclude them, as the other data in those rows were still valuable for my analysis.
 
 Due to the large size of the dataset, I decided to transition from Excel to SQL and finish the cleaning process using BigQuery.
+Codes inside CLEANING folder.
+
+# 4. Analyse
+I used Big Query to conduct my analysis, and I will outline my steps below to facilitate visualization and understanding. My entire analysis was executed by comparing the data between casual riders and members.
+Codes inside ANALYSING folder.
+
+# 5. Share
+This is the stage where we share our findings. This is achieved by creating impactful visualizations that will assist the audience in easily understanding the assessment. Presenting the extensive data in the form of graphs and plots makes it easier to visualize trends, identify patterns, and effectively convey the results of my analysis.
+
+For that purpose, I transferred my data to Tableau and created a dashboard, which can be accessed [here](https://public.tableau.com/app/profile/camila.pattaro7144/viz/CyclistBikeShareAnalysis_17294455179800/CyclistDashboard)
+
+# 6. Act
+The final stage of our analysis involves applying our insights to drive solutions and recommendations that are supported by data. Our business task was to identify the differences in usage between members and casual riders of the Cyclistic bike-share system, with the goal of designing effective marketing strategies aimed at converting casual riders into annual members.
+
+Data-driven recommendations:
+
+With the use of digital marketing, promote bike usage in general, encouraging a more sustainable commuting option and a healthier lifestyle. Topics such as global warming and maintaining health through physical exercise are of general interest to the public, and it would be beneficial to leverage these in our favor. This approach could not only attract new members but also encourage casual riders to switch to an annual plan.
+Identify the most frequented locations by casual riders and partner with businesses in those areas to offer member-only deals and discounts, encouraging casual riders to transition to a membership plan.
+Promote the use of bikes during the off-peak season months by offering early bird sign-up promotions with discounts for memberships.
+Offer discount plans for families and friends to encourage collective memberships.
+
+# Conclusion
+This analysis provides valuable insights into the preferences and behaviors of Cyclistic members and casual riders. By considering these differences, the company can effectively develop a strategy to convert casual riders into potential members.
