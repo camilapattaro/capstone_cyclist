@@ -1,12 +1,10 @@
 --1.Number of rides.
-```sql
 SELECT
   COUNT (member_casual) AS total,
   COUNTIF (member_casual) = "casual",
   COUNTIF (member_casual) = "member"
 FROM
   `iconic-baton-427611-m0.cyclist_data.combined_tables3`
-```
 --Casual:1.1985.922 Members:3.581.392
 --We can observe that the number of members is nearly double that of casual riders.
 
