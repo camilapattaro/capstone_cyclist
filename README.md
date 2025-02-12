@@ -1,5 +1,4 @@
-# Case Study: How Does a Bike-Share Navigate Speedy Success?
-# (SQL/Tableau)
+# Case Study: How Does a Bike-Share Navigate Speedy Success? (SQL/Tableau)
 [Medium](https://medium.com/@camilapattaro/case-study-how-does-a-bike-share-navigate-speedy-success-561fe81e042a)
 
 # Introduction
